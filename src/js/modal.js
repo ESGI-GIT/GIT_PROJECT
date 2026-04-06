@@ -1,0 +1,1 @@
+fix affichage formulaires sur mobile
