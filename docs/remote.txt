@@ -1,0 +1,12 @@
+# Ajouter un 2e URL à origin
+git remote set-url --add --push origin https://github.com/user/repo1.git
+git remote set-url --add --push origin https://github.com/user/repo2.git
+
+# Puis un simple push envoie sur les deux
+git push origin main
+
+
+# Garder deux remotes séparés
+git remote add second-remote https://github.com/user/repo2.git
+git push origin main
+git push second-remote main
