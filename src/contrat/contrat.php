@@ -1,1 +1,3 @@
-filtre par type de contract
+filtre par type de contrat
+
+fix message d'erreur
