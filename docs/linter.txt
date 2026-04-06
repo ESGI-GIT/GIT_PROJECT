@@ -1,0 +1,9 @@
+Linter JS
+
+Se déclenche sur push/pull request sur main. Il installe Node.js 20, les dépendances npm, puis lance ESLint. 
+IL vérifie le code des fichiers js.
+
+Linter PHP 
+
+Se déclenche sur push/pull request sur develop. Il installe PHP 8.2 avec l'outil phpcs, puis analyse le code. 
+Il vérifie le code des fichiers php.
